@@ -1,0 +1,12 @@
+﻿bien,kieu_du_lieu,so_gia_tri_phan_biet,so_gia_tri_thieu,ban_chat,vai_tro_phan_tich
+Unnamed: 0,int64,23486,0,Cột chỉ mục dư thừa,Loại bỏ khi tiền xử lý
+Clothing ID,int64,1206,0,"Định danh sản phẩm, định tính mã hóa số",Biến giải thích / nhóm sản phẩm
+Age,int64,77,0,Định lượng rời rạc,Tuổi khách hàng
+Title,object,13993,3810,Dữ liệu văn bản phi cấu trúc,Đầu vào NLP / phân tích cảm xúc
+Review Text,object,22634,845,Dữ liệu văn bản phi cấu trúc,Đầu vào NLP / phân tích cảm xúc
+Rating,int64,5,0,Định lượng thứ bậc/rời rạc,Nhãn mức hài lòng 1-5
+Recommended IND,int64,2,0,Định tính nhị phân,Biến mục tiêu khuyến nghị / phân loại
+Positive Feedback Count,int64,82,0,Định lượng rời rạc,Số lượt phản hồi tích cực
+Division Name,object,3,14,Định tính danh nghĩa,Phân nhóm sản phẩm
+Department Name,object,6,14,Định tính danh nghĩa,Phân nhóm sản phẩm
+Class Name,object,20,14,Định tính danh nghĩa,Phân nhóm sản phẩm

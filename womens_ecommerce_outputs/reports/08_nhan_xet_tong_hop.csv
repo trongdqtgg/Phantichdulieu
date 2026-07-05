@@ -1,0 +1,7 @@
+﻿muc,nhan_xet
+Phân loại biến,"Dữ liệu gồm định lượng (Age, Rating, Positive Feedback Count), nhị phân (Recommended IND), định tính (Division/Department/Class), và văn bản phi cấu trúc (Title, Review Text)."
+Định lượng,"Rating tập trung cao ở mức 4-5; Positive Feedback Count lệch phải mạnh, nhiều dòng bằng 0 nhưng có một số bài review nhận nhiều phản hồi."
+Định tính,"Tops, Dresses, Bottoms là các nhóm sản phẩm quan trọng; cần phân tích theo Department/Class để hiểu sản phẩm nào nhận đánh giá cao/thấp."
+Văn bản,"Title và Review Text có thiếu dữ liệu; sau tiền xử lý được thay bằng No Title/No Review, đồng thời tạo Review Text Length, Word Count để trực quan hóa."
+Tiền xử lý,"Loại bỏ Unnamed: 0, điền missing, chuẩn hóa chuỗi, tạo Sentiment Label từ Rating, Recommended Label từ Recommended IND, Age Group và cắt ngoại lệ 1%-99% phục vụ biểu đồ."
+Mô hình hóa,Có thể dùng Rating hoặc Sentiment Label làm nhãn cảm xúc; Recommended IND làm nhãn phân loại khuyến nghị như bài Agarap 2018.
