@@ -1,0 +1,4 @@
+﻿ten_bo_du_lieu,so_dong,so_cot,so_du_lieu_khuyet,so_dong_trung_lap,ngay_min,ngay_max,tong_sales,sales_trung_binh
+train.csv,3000888,6,0,0,2013-01-01,2017-08-15,1073644952.2030684,357.77574911261877
+oil.csv,1218,2,43,0,2013-01-01,2017-08-31,,
+transactions.csv,83488,3,0,0,2013-01-01,2017-08-15,,

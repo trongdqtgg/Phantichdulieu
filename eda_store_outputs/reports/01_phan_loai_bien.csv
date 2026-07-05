@@ -1,0 +1,30 @@
+﻿file,ten_bien,kieu_du_lieu_python,ban_chat_bien,so_gia_tri_khuyet,ty_le_khuyet_%,so_gia_tri_khac_nhau
+train.csv,id,int64,Biến định danh,0,0.0,3000888
+train.csv,date,datetime64[ns],Biến thời gian,0,0.0,1684
+train.csv,store_nbr,int64,Biến định danh / định tính mã hóa số,0,0.0,54
+train.csv,family,object,Biến định tính danh nghĩa - nhóm sản phẩm,0,0.0,33
+train.csv,sales,float64,Biến mục tiêu định lượng liên tục cần dự báo,0,0.0,379610
+train.csv,onpromotion,int64,Biến định lượng rời rạc,0,0.0,362
+stores.csv,store_nbr,int64,Biến định danh / định tính mã hóa số,0,0.0,54
+stores.csv,city,object,Biến định tính,0,0.0,22
+stores.csv,state,object,Biến định tính,0,0.0,16
+stores.csv,type,object,Biến định tính,0,0.0,5
+stores.csv,cluster,int64,Biến định tính nhóm/cụm mã hóa số,0,0.0,17
+test.csv,id,int64,Biến định danh,0,0.0,28512
+test.csv,date,datetime64[ns],Biến thời gian,0,0.0,16
+test.csv,store_nbr,int64,Biến định danh / định tính mã hóa số,0,0.0,54
+test.csv,family,object,Biến định tính danh nghĩa - nhóm sản phẩm,0,0.0,33
+test.csv,onpromotion,int64,Biến định lượng rời rạc,0,0.0,212
+transactions.csv,date,datetime64[ns],Biến thời gian,0,0.0,1682
+transactions.csv,store_nbr,int64,Biến định danh / định tính mã hóa số,0,0.0,54
+transactions.csv,transactions,int64,Biến định lượng rời rạc,0,0.0,4993
+oil.csv,date,datetime64[ns],Biến thời gian,0,0.0,1218
+oil.csv,dcoilwtico,float64,Biến định lượng liên tục,43,3.5304,998
+holidays_events.csv,date,datetime64[ns],Biến thời gian,0,0.0,312
+holidays_events.csv,type,object,Biến định tính,0,0.0,6
+holidays_events.csv,locale,object,Biến định tính,0,0.0,3
+holidays_events.csv,locale_name,object,Biến định tính,0,0.0,24
+holidays_events.csv,description,object,Biến định tính,0,0.0,103
+holidays_events.csv,transferred,bool,Biến nhị phân Boolean,0,0.0,2
+sample_submission.csv,id,int64,Biến định danh,0,0.0,28512
+sample_submission.csv,sales,float64,Biến mục tiêu định lượng liên tục cần dự báo,0,0.0,1

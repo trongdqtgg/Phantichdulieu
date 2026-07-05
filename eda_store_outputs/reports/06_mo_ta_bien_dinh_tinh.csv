@@ -1,0 +1,10 @@
+﻿source,bien,so_gia_tri_khac_nhau,so_khuyet,top_15_gia_tri
+train,family,33,0,AUTOMOTIVE: 90936 | BABY CARE: 90936 | BEAUTY: 90936 | BEVERAGES: 90936 | BOOKS: 90936 | BREAD/BAKERY: 90936 | CELEBRATION: 90936 | CLEANING: 90936 | DAIRY: 90936 | DELI: 90936 | EGGS: 90936 | FROZEN FOODS: 90936 | GROCERY I: 90936 | GROCERY II: 90936 | HARDWARE: 90936
+train,store_nbr,54,0,1: 55572 | 10: 55572 | 11: 55572 | 12: 55572 | 13: 55572 | 14: 55572 | 15: 55572 | 16: 55572 | 17: 55572 | 18: 55572 | 19: 55572 | 2: 55572 | 20: 55572 | 21: 55572 | 22: 55572
+stores,city,22,0,Quito: 18 | Guayaquil: 8 | Cuenca: 3 | Santo Domingo: 3 | Latacunga: 2 | Machala: 2 | Manta: 2 | Ambato: 2 | Cayambe: 1 | Riobamba: 1 | Ibarra: 1 | Salinas: 1 | Puyo: 1 | Guaranda: 1 | Quevedo: 1
+stores,state,16,0,Pichincha: 19 | Guayas: 11 | Azuay: 3 | Santo Domingo de los Tsachilas: 3 | Manabi: 3 | Los Rios: 2 | Cotopaxi: 2 | Tungurahua: 2 | El Oro: 2 | Bolivar: 1 | Imbabura: 1 | Chimborazo: 1 | Pastaza: 1 | Santa Elena: 1 | Loja: 1
+stores,type,5,0,D: 18 | C: 15 | A: 9 | B: 8 | E: 4
+stores,cluster,17,0,3: 7 | 10: 6 | 6: 6 | 15: 5 | 13: 4 | 14: 4 | 11: 3 | 4: 3 | 8: 3 | 1: 3 | 2: 2 | 9: 2 | 7: 2 | 12: 1 | 16: 1
+holidays_events,type,6,0,Holiday: 221 | Event: 56 | Additional: 51 | Transfer: 12 | Bridge: 5 | Work Day: 5
+holidays_events,locale,3,0,National: 174 | Local: 152 | Regional: 24
+holidays_events,transferred,2,0,False: 338 | True: 12
