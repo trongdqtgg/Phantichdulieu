@@ -1,0 +1,19 @@
+﻿ten_bien,kieu_du_lieu_python,ban_chat_bien,so_gia_tri_khuyet,so_gia_tri_khac_nhau
+Administrative,int64,Biến định lượng,0,27
+Administrative_Duration,float64,Biến định lượng,0,3335
+Informational,int64,Biến định lượng,0,17
+Informational_Duration,float64,Biến định lượng,0,1258
+ProductRelated,int64,Biến định lượng,0,311
+ProductRelated_Duration,float64,Biến định lượng,0,9551
+BounceRates,float64,Biến định lượng,0,1872
+ExitRates,float64,Biến định lượng,0,4777
+PageValues,float64,Biến định lượng,0,2704
+SpecialDay,float64,Biến định lượng,0,6
+Month,object,Biến định tính,0,10
+OperatingSystems,int64,Biến định tính,0,8
+Browser,int64,Biến định tính,0,13
+Region,int64,Biến định tính,0,9
+TrafficType,int64,Biến định tính,0,20
+VisitorType,object,Biến định tính,0,3
+Weekend,bool,Biến định tính,0,2
+Revenue,bool,Biến mục tiêu / định tính nhị phân,0,2
