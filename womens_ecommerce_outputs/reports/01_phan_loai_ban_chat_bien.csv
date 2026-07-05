@@ -1,0 +1,19 @@
+﻿ten_bien,kieu_du_lieu_python,ban_chat_bien,vai_tro_phan_tich,so_gia_tri_khuyet,ty_le_khuyet_%,so_gia_tri_khac_nhau
+Unnamed: 0,int64,"Biến định danh / mã hóa, không dùng để tính trung bình",ID / chỉ số dòng,0,0.0,23486
+Clothing ID,int64,"Biến định danh / mã hóa, không dùng để tính trung bình",ID / chỉ số dòng,0,0.0,1206
+Age,int64,Biến định lượng,"Phân tích mô tả, histogram, boxplot, scatter, line",0,0.0,77
+Title,object,Biến định tính dạng văn bản tự do,Nguồn tạo đặc trưng độ dài và phân tích NLP,3810,16.22,13993
+Review Text,object,Biến định tính dạng văn bản tự do,Nguồn tạo đặc trưng độ dài và phân tích NLP,845,3.6,22634
+Rating,int64,Biến định lượng rời rạc kiêm nhãn cảm xúc theo thang 1-5,Mục tiêu phân tích đánh giá / sentiment proxy,0,0.0,5
+Recommended IND,int64,Biến định tính nhị phân được mã hóa 0/1,Nhãn khuyến nghị sản phẩm,0,0.0,2
+Positive Feedback Count,int64,Biến định lượng,"Phân tích mô tả, histogram, boxplot, scatter, line",0,0.0,82
+Division Name,object,Biến định tính,Phân nhóm / so sánh tần suất,14,0.06,3
+Department Name,object,Biến định tính,Phân nhóm / so sánh tần suất,14,0.06,6
+Class Name,object,Biến định tính,Phân nhóm / so sánh tần suất,14,0.06,20
+Review_Text_Length,int64,Biến định lượng,"Phân tích mô tả, histogram, boxplot, scatter, line",0,0.0,498
+Review_Word_Count,int64,Biến định lượng,"Phân tích mô tả, histogram, boxplot, scatter, line",0,0.0,115
+Title_Length,int64,Biến định lượng,"Phân tích mô tả, histogram, boxplot, scatter, line",0,0.0,52
+Has_Title,object,Biến định tính,Phân nhóm / so sánh tần suất,0,0.0,2
+Sentiment_Label,category,Biến định tính,Phân nhóm / so sánh tần suất,0,0.0,3
+Age_Group,category,Biến định tính,Phân nhóm / so sánh tần suất,0,0.0,6
+Recommended_Label,object,Biến định tính,Phân nhóm / so sánh tần suất,0,0.0,2

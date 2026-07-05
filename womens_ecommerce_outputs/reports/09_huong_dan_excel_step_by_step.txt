@@ -1,0 +1,75 @@
+HƯỚNG DẪN LÀM BẰNG EXCEL - WOMEN'S E-COMMERCE CLOTHING REVIEWS
+
+1. Import dữ liệu
+- Mở Excel > Data > Get Data > From Text/CSV.
+- Chọn file Womens Clothing E-Commerce Reviews.csv.
+- Chọn encoding UTF-8 nếu có lỗi font.
+- Bấm Load để đưa dữ liệu vào sheet.
+
+2. Kiểm tra dữ liệu thiếu
+- Dùng Filter ở hàng tiêu đề.
+- Với từng cột Title, Review Text, Division Name, Department Name, Class Name, lọc Blank để xem số ô trống.
+- Có thể dùng công thức =COUNTBLANK(A:A) cho từng cột.
+
+3. Phân loại biến
+- Tạo sheet Variable_Type.
+- Liệt kê tên cột, kiểu dữ liệu, bản chất biến.
+- Age, Rating, Positive Feedback Count là biến định lượng.
+- Title, Review Text, Division Name, Department Name, Class Name là biến định tính.
+- Recommended IND là biến nhị phân 0/1.
+
+4. Tạo biến mới
+- Review_Text_Length: =LEN([@[Review Text]])
+- Review_Word_Count: =IF(TRIM([@[Review Text]])="",0,LEN(TRIM([@[Review Text]]))-LEN(SUBSTITUTE(TRIM([@[Review Text]])," ",""))+1)
+- Has_Title: =IF([@Title]="","No title","Has title")
+- Sentiment_Label: =IF([@Rating]<=2,"Negative",IF([@Rating]=3,"Neutral","Positive"))
+- Age_Group: dùng hàm IFS, ví dụ =IFS([@Age]<=25,"<=25",[@Age]<=35,"26-35",[@Age]<=45,"36-45",[@Age]<=55,"46-55",[@Age]<=65,"56-65",TRUE,">65")
+
+5. Phân tích biến định lượng
+- Chọn cột Age/Rating/Positive Feedback Count.
+- Vào Data > Data Analysis > Descriptive Statistics.
+- Nếu chưa có Data Analysis: File > Options > Add-ins > Analysis ToolPak.
+- Tính Mean, Median, Min, Max, Standard Deviation.
+
+6. Phân tích biến định tính
+- Insert > PivotTable.
+- Kéo Department Name/Class Name/Rating vào Rows.
+- Kéo cùng biến vào Values để đếm tần suất.
+- Đổi Values thành Count nếu Excel đang để Sum.
+
+7. Vẽ Histogram
+- Chọn cột Age hoặc Rating.
+- Insert > Statistic Chart > Histogram.
+- Đặt tiêu đề: Histogram - Age hoặc Histogram - Rating.
+
+8. Vẽ Boxplot
+- Chọn cột Age hoặc Positive Feedback Count.
+- Insert > Statistic Chart > Box & Whisker.
+- Dùng để phát hiện ngoại lệ.
+
+9. Vẽ Scatter Plot
+- Chọn 2 cột, ví dụ Age và Positive Feedback Count.
+- Insert > Scatter.
+- Dùng để xem quan hệ giữa 2 biến định lượng.
+
+10. Vẽ Bar Chart
+- Tạo PivotTable đếm Rating, Department Name, Class Name.
+- Chọn PivotTable > Insert > Bar/Column Chart.
+
+11. Vẽ Line Chart
+- Tạo PivotTable: Rows = Age, Values = Average of Rating hoặc Count of Review.
+- Insert > Line Chart.
+
+12. Vẽ Heatmap tương quan
+- Tạo bảng correlation bằng Data Analysis > Correlation.
+- Chọn các biến Age, Rating, Positive Feedback Count, Review_Text_Length, Review_Word_Count.
+- Bôi đen bảng correlation > Home > Conditional Formatting > Color Scales.
+
+13. So sánh trước và sau tiền xử lý
+- Sheet Before: dữ liệu gốc.
+- Sheet After: dữ liệu đã xử lý thiếu, xóa trùng, thêm biến mới.
+- Tạo bảng so sánh: số dòng, số cột, số missing, mean rating, mean age, mean feedback.
+
+14. Xuất ảnh biểu đồ
+- Bấm phải vào biểu đồ > Save as Picture.
+- Lưu theo tên rõ ràng như histogram_Age_before.png, bar_Rating_after.png.

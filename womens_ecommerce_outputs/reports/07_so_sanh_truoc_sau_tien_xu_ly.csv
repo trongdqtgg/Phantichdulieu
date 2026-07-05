@@ -1,0 +1,8 @@
+﻿chi_tieu,before,after,nhan_xet
+Số dòng,23486.0,23465.0,Sau tiền xử lý loại trùng lặp nếu có.
+Số cột,18.0,17.0,Sau tiền xử lý bỏ cột chỉ số và thêm biến đặc trưng văn bản.
+Tổng giá trị khuyết,4697.0,0.0,"Đã điền thiếu cho tiêu đề, nội dung đánh giá và nhóm sản phẩm."
+Tuổi trung bình,43.199,43.175,Thay đổi nhẹ vì winsorize/capping outlier.
+Rating trung bình,4.196,4.195,Rating không bị thay đổi về bản chất.
+Positive Feedback Count trung bình,2.536,1.775,Giảm ảnh hưởng của giá trị cực đoan nhờ capping IQR.
+Tỷ lệ Recommended (%),82.24,82.22,Tỷ lệ khuyến nghị được giữ nguyên gần như hoàn toàn.

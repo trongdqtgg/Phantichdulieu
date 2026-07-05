@@ -1,0 +1,47 @@
+﻿giai_doan,ten_bien,gia_tri,tan_suat,ty_le_%
+after,Division Name,General,13853,59.04
+after,Division Name,General Petite,8110,34.56
+after,Division Name,Initmates,1502,6.4
+after,Department Name,Tops,10469,44.62
+after,Department Name,Dresses,6312,26.9
+after,Department Name,Bottoms,3798,16.19
+after,Department Name,Intimate,1735,7.39
+after,Department Name,Jackets,1032,4.4
+after,Department Name,Trend,119,0.51
+after,Class Name,Dresses,6326,26.96
+after,Class Name,Knits,4835,20.61
+after,Class Name,Blouses,3093,13.18
+after,Class Name,Sweaters,1428,6.09
+after,Class Name,Pants,1388,5.92
+after,Class Name,Jeans,1146,4.88
+after,Class Name,Fine gauge,1099,4.68
+after,Class Name,Skirts,945,4.03
+after,Class Name,Jackets,704,3.0
+after,Class Name,Lounge,691,2.94
+after,Class Name,Swim,350,1.49
+after,Class Name,Outerwear,328,1.4
+after,Class Name,Shorts,317,1.35
+after,Class Name,Sleep,228,0.97
+after,Class Name,Legwear,165,0.7
+after,Class Name,Intimates,154,0.66
+after,Class Name,Layering,146,0.62
+after,Class Name,Trend,119,0.51
+after,Class Name,Casual bottoms,2,0.01
+after,Class Name,Chemises,1,0.0
+after,Rating,5,13111,55.87
+after,Rating,4,5076,21.63
+after,Rating,3,2871,12.24
+after,Rating,2,1565,6.67
+after,Rating,1,842,3.59
+after,Recommended_Label,Recommended,19293,82.22
+after,Recommended_Label,Not recommended,4172,17.78
+after,Sentiment_Label,Positive (4-5),18187,77.51
+after,Sentiment_Label,Neutral (3),2871,12.24
+after,Sentiment_Label,Negative (1-2),2407,10.26
+after,Age_Group,36-45,7382,31.46
+after,Age_Group,26-35,5746,24.49
+after,Age_Group,46-55,4907,20.91
+after,Age_Group,56-65,3049,12.99
+after,Age_Group,<=25,1223,5.21
+after,Age_Group,>65,1158,4.94
+after,Has_Title,Has title,23465,100.0

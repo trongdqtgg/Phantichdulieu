@@ -1,0 +1,32 @@
+ƯU ĐIỂM - KHUYẾT ĐIỂM PYTHON VÀ EXCEL
+
+1. Python
+Ưu điểm:
+- Xử lý dữ liệu lớn tốt hơn Excel.
+- Có thể tự động hóa toàn bộ quy trình: import, tiền xử lý, thống kê, vẽ biểu đồ, xuất ảnh.
+- Dễ tái lập kết quả vì toàn bộ thao tác nằm trong code.
+- Phù hợp phân tích NLP/sentiment classification vì có thể tạo biến từ văn bản và huấn luyện mô hình.
+- Xuất hàng loạt biểu đồ nhanh, tránh thao tác thủ công.
+
+Khuyết điểm:
+- Cần biết lập trình Python và thư viện pandas/matplotlib.
+- Người mới có thể khó chỉnh sửa biểu đồ theo giao diện kéo thả.
+- Cần kiểm soát lỗi đường dẫn, encoding, tên cột.
+
+2. Excel
+Ưu điểm:
+- Dễ dùng, trực quan, phù hợp người mới.
+- PivotTable giúp phân tích biến định tính rất nhanh.
+- Biểu đồ có thể chỉnh sửa bằng chuột, dễ đưa vào báo cáo.
+- Phù hợp khi dữ liệu vừa và nhỏ.
+
+Khuyết điểm:
+- Khó tái lập nếu thao tác thủ công nhiều bước.
+- Dễ sai nếu lọc/xóa/sắp xếp nhầm.
+- Không mạnh bằng Python khi xử lý văn bản, dữ liệu lớn hoặc tự động xuất nhiều biểu đồ.
+- Vẽ heatmap/correlation và xử lý outlier cần nhiều thao tác hơn.
+
+Kết luận:
+- Python phù hợp cho bài phân tích đầy đủ, nhiều biểu đồ, cần lặp lại và mở rộng sang machine learning.
+- Excel phù hợp để trình bày nhanh, kiểm tra dữ liệu và tạo PivotTable/bar chart thủ công.
+- Nên dùng kết hợp: Python để xử lý và xuất biểu đồ hàng loạt; Excel để kiểm tra, trình bày và tinh chỉnh báo cáo.

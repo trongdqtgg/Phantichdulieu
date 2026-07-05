@@ -1,0 +1,6 @@
+﻿ten_bien,Q1,Q3,IQR,can_duoi,can_tren,so_outlier_truoc_cap,so_outlier_sau_cap
+Age,34.0,52.0,18.0,7.0,79.0,109,0
+Positive Feedback Count,0.0,3.0,3.0,-4.5,7.5,2147,0
+Review_Text_Length,174.0,451.0,277.0,-241.5,866.5,0,0
+Review_Word_Count,34.0,87.0,53.0,-45.5,166.5,0,0
+Title_Length,9.0,23.0,14.0,-12.0,44.0,378,0
