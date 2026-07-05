@@ -1,0 +1,8 @@
+﻿metric,before,after
+Số dòng transactions,83488,83488
+Số cột trước merge,3,3
+Missing oil gốc,43,0
+Missing dcoilwtico sau merge + xử lý,25640,0
+Missing holiday_count sau xử lý,Chưa có biến,0
+Số dòng dữ liệu sạch,83488,83488
+Số cột dữ liệu sạch,8,15

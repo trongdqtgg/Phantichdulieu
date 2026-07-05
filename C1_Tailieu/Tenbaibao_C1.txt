@@ -1,0 +1,3 @@
+- https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews	
+- Tên bài báo: Statistical Analysis on E-Commerce Reviews, with Sentiment Classification using Bidirectional RNN (Agarap, A. F., 2018).
+- Link arXiv (Kho lưu trữ mở của ĐH Cornell - Luôn miễn phí PDF): https://arxiv.org/abs/1805.03687

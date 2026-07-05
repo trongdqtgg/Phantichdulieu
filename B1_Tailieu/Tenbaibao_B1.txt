@@ -1,0 +1,3 @@
+- https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
+- Đặc thù: Đây là bài toán dự báo doanh thu thực tế từ cuộc thi của Google/Kaggle.
+- Link xem Benchmark trực tiếp: Bạn tham khảo bài phân tích đạt Top 1% tại: https://www.kaggle.com/competitions/store-sales-time-series-forecasting
